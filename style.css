@@ -1,0 +1,21 @@
+.w-44 {
+  width: 44px;
+}
+
+#spinner,
+#results {
+  display: none;
+}
+
+#spinner {
+  margin-top: 25px;
+}
+
+a {
+  color: #52a6ff;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #7abbff;
+}
