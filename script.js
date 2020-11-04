@@ -26,7 +26,7 @@ function calcRes() {
 
   
   if(isFinite(calcRes)) {
-    result.innerHTML = "If you invest " + formatter.format(calcSum) + " at an interest rate of " + (calcInt * 100).toFixed(2) + "% for " + calcYears + " years, " + "you may earn " + formatter.format(calcRes.toFixed(2)) + " by the end of " + (new Date().getFullYear() + calcYears) + ".";
+    result.innerHTML = "If you invest " + formatter.format(calcSum) + " at an interest rate of " + (calcInt * 100).toFixed() + "% for " + calcYears + " years, " + "you could earn " + formatter.format(calcRes.toFixed()) + " by the end of " + (new Date().getFullYear() + calcYears) + ".";
     lumpSum.value = '';
     interestRate.value = '';
     yearsInvested.value = '';
